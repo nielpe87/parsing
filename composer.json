@@ -1,0 +1,46 @@
+{
+    "name": "nielpe87/parsing",
+    "description": "A basic Base64Url and JSON encoding/decoding implementation",
+    "type": "library",
+    "abandoned": true,
+    "authors": [
+        {
+            "name": "Emanuel Aguiar",
+            "email": "emanuel_pe@live.com",
+            "role": "Developer"
+        }
+    ],
+    "keywords": [
+        "Emanuel",
+        "Base64Url"
+    ],
+    "config": {
+        "preferred-install": "dist",
+        "sort-packages": true
+    },
+    "license": [
+        "BSD-3-Clause"
+    ],
+    "require": {
+        "php": "^7.4 || ^8.0",
+        "ext-json": "*"
+    },
+    "require-dev": {
+        
+    },
+    "autoload": {
+        "psr-4": {
+            "Nielpe87\\Parsing\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Nielpe87\\Parsing\\": ["test"]
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "3.0-dev"
+        }
+    }
+}
