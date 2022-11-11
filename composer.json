@@ -2,6 +2,7 @@
     "name": "nielpe87/parsing",
     "description": "A basic Base64Url and JSON encoding/decoding implementation",
     "type": "library",
+    "license": "MIT",
     "abandoned": true,
     "authors": [
         {
@@ -10,6 +11,8 @@
             "role": "Developer"
         }
     ],
+    "minimum-stability": "dev",
+    "prefer-stable": true,
     "keywords": [
         "Emanuel",
         "Base64Url"
@@ -18,9 +21,6 @@
         "preferred-install": "dist",
         "sort-packages": true
     },
-    "license": [
-        "BSD-3-Clause"
-    ],
     "require": {
         "php": "^7.4 || ^8.0",
         "ext-json": "*"
