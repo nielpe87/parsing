@@ -3,7 +3,6 @@
     "description": "A basic Base64Url and JSON encoding/decoding implementation",
     "type": "library",
     "license": "MIT",
-    "abandoned": true,
     "authors": [
         {
             "name": "Emanuel Aguiar",
